@@ -2,11 +2,11 @@
 #include <HTTPClient.h>
 
 // -------- WiFi Details --------
-const char* ssid     = "Hii";
-const char* password = "12345678";
+const char* ssid     = "SS_ID"; // Your network ID
+const char* password = "PASSWORD"; // Password
 
 // -------- ThingSpeak --------
-String apiKey = "M82TFTKJ6PFJLILK";     // Your ThingSpeak Write API Key
+String apiKey = "YOUR_API_KEY";     // Your ThingSpeak Write API Key
 const char* serverName = "http://api.thingspeak.com/update";
 
 // -------- Sensor Pins --------
